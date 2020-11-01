@@ -1,0 +1,30 @@
+public class Quiz3 {
+	
+public static void main(String[] args) {
+		
+		car1 c = new car1();
+		System.out.println("Car is running... " + c.brand);
+    
+    
+public class car_1 {
+
+	String brand = "Proton X70";;
+	int modelYear;
+	
+	void Quiz3() {
+		this.brand = "Proton X70";
+        this.modelYear = 2020;
+	}
+	
+	void Quiz2 (String b, int m) {
+		this.brand = b;
+		this.modelYear = m;
+	}
+	
+	public void printQuiz3 () {
+		Quiz3 obj1 = new Quiz3();
+		Quiz3 obj2 = new Quiz3();
+		
+		System.out.println("Car is running: "+obj1.brand+"\n" + "Model of the year: "+obj1.brand+"\n");
+		System.out.println("Car is running: "+obj2.brand+"\n" + "Model of the year: "+obj2.brand+"\n");
+	}
